@@ -1,0 +1,54 @@
+body {
+    background-color: #777777;
+    color: #0b594f;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+a:link {
+    color: #4570A7;
+}
+a:visited {
+    color: #4570A7;
+}
+
+.container h2 {
+    color: #0d6792;
+    font-weight: bold;
+    size: 24px;
+}
+
+/* Override we want 1200px max*/
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+}
+
+.number-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #fff;
+    line-height: 60px;
+    text-align: center;
+    background: #0d6792;
+}
+
+.calltoaction {
+    background: #e1f9f6;
+    text-align: center;
+}
+
+.btn-regions {
+    color: white;
+    background: #0b594f;
+    font-size: 15px;
+    width: 170px;
+
+}
+
+
+.footer {
+    border-top: 1px solid #DDDDDD;
+}

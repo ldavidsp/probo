@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 3049dab5-3726-478d-be94-b55695a2c81c
+  bundle: image
+  default_langcode: en
+  depends:
+    d9576151-c6ee-42e8-b9b3-36f209cd05c2: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Three-photos.jpg
+  created:
+    -
+      value: 1607533509
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: d9576151-c6ee-42e8-b9b3-36f209cd05c2
+      alt: s
+      title: ''
+      width: 1200
+      height: 400

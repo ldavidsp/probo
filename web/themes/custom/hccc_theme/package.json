@@ -1,0 +1,39 @@
+{
+  "name": "hccc_theme",
+  "version": "1.0.0",
+  "description": "<!-- @file Instructions for subtheming using the Less Starterkit. --> <!-- @defgroup sub_theming_less --> <!-- @ingroup sub_theming --> # Less Starterkit",
+  "main": "webpack.mix.js",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "bootstrap-less": "^3.3.8",
+    "jquery": "^3.5.1",
+    "laravel-mix": "^5.0.9",
+    "popper.js": "^1.16.1",
+    "source-sans-pro": "^3.6.0",
+    "url": "^0.11.0",
+    "url-parse": "^1.4.7"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "cross-env": "^7.0",
+    "less": "^3.12.2",
+    "less-loader": "^7.1.0",
+    "lodash": "^4.17.20",
+    "resolve-url-loader": "^3.1.2",
+    "sass": "^1.29.0",
+    "sass-loader": "^10.1.0",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch",
+    "watch-poll": "npm run watch -- --watch-poll",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --disable-host-check --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "author": "MTech, LLC",
+  "license": "ISC"
+}

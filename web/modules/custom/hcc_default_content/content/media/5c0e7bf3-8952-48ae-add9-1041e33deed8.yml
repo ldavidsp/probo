@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 5c0e7bf3-8952-48ae-add9-1041e33deed8
+  bundle: image
+  default_langcode: en
+  depends:
+    d143159c-69ce-4f63-8ee3-eca96fa258be: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: hcwh_logo.png
+  created:
+    -
+      value: 1608061400
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: d143159c-69ce-4f63-8ee3-eca96fa258be
+      alt: q
+      title: ''
+      width: 100
+      height: 100

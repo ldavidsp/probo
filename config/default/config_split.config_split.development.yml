@@ -1,0 +1,18 @@
+uuid: d2925be3-69ea-496d-8971-17016e760c3e
+langcode: en
+status: true
+dependencies: {  }
+id: development
+label: Development
+description: ''
+folder: ../config/dev
+module:
+  config_inspector: 0
+  devel: 0
+  stage_file_proxy: 0
+theme: {  }
+blacklist: {  }
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

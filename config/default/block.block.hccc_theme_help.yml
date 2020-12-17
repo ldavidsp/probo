@@ -1,0 +1,22 @@
+uuid: 6bcea08a-4dc8-42ce-99ce-87090b6d4556
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - hccc_theme
+_core:
+  default_config_hash: JPtjio142VL7z1Y-K1aWkTXu5wId7r4-zNUHozwLqf0
+id: hccc_theme_help
+theme: hccc_theme
+region: content
+weight: -1
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

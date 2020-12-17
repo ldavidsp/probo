@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e7510705-9377-4bec-af06-32eefedd658d
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 100RE_banner.png
+  uri:
+    -
+      value: 'public://2020-12/100RE_banner.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 424256
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1608060311

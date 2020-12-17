@@ -1,0 +1,22 @@
+uuid: e5a79318-7a6f-4bef-9857-b48f84202f32
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - hccc_theme
+_core:
+  default_config_hash: pCYcyBIVbwKUmraga_6Ycz5P-bhQJLJS_8HtOFpMq-o
+id: hccc_theme_powered_by_drupal
+theme: hccc_theme
+region: footer
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

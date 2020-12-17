@@ -1,0 +1,18 @@
+uuid: efc0f279-6709-434f-ad72-d71cda644eae
+langcode: en
+status: false
+dependencies:
+  theme:
+    - hccc_theme
+id: pagetitle
+theme: hccc_theme
+region: content
+weight: -4
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

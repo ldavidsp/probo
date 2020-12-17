@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b2bc4afc-7e8c-4a71-9978-145c7107285b
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: gghh_logo.png
+  uri:
+    -
+      value: 'public://2020-12/gghh_logo.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 8711
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1608061476

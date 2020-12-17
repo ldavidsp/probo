@@ -1,0 +1,7 @@
+{
+  "patches": {
+    "drupal/default_content": {
+      "Add a Normalizer and Denormalizer to support Layout Builder": "https://www.drupal.org/files/issues/2020-08-24/default_content-add-normalizer-denormalizer-for-layout-builder-3160146-25.patch"
+    }
+  }
+}

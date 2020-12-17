@@ -1,0 +1,15 @@
+uuid: f9daff9b-b427-4791-ab2b-488a8c970a38
+name: 'Health Care Climate Challenge'
+mail: dev@zivtech.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
+mail_notification: ''

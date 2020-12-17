@@ -1,0 +1,22 @@
+uuid: a905cc17-ecb9-4ba0-a721-e03ce83bce4a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - hccc_theme
+_core:
+  default_config_hash: IzSbK3zk-Gon9y7WLEWop15Wn__7LeKzBJIXqajlb00
+id: hccc_theme_local_tasks
+theme: hccc_theme
+region: content
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

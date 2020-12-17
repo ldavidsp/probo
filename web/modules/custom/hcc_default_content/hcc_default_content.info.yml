@@ -1,0 +1,35 @@
+name: 'HCCC Default content tests'
+type: module
+description: 'Default content tests'
+package: Web services
+core: 8.x
+core_version_requirement: ^8 || ^9
+dependencies:
+  - default_content:default_content
+
+default_content:
+  node:
+    - d4d34e22-e34c-492a-ab9c-034629ff9fea
+  file:
+    - 264da2ee-910c-4db3-a1ea-f3d2563fdadb
+    - b2bc4afc-7e8c-4a71-9978-145c7107285b
+    - d143159c-69ce-4f63-8ee3-eca96fa258be
+    - d9576151-c6ee-42e8-b9b3-36f209cd05c2
+    - e7510705-9377-4bec-af06-32eefedd658d
+  media:
+    - 5c0e7bf3-8952-48ae-add9-1041e33deed8
+    - 9a3e4e50-1698-419f-a18b-0803da06a570
+    - 3049dab5-3726-478d-be94-b55695a2c81c
+    - a146de33-3a34-4a29-a63c-51561333c660
+    - e2f18497-d723-4d25-9603-a495488f5b96
+  block_content:
+    - 1bf7f97d-cdc8-4e13-8b16-5de15d02ee85
+    - 01fcade2-a301-40e1-acc1-26ea74ae59c6
+    - 2c67945f-23e5-4b23-a577-0a8741b6f409
+    - 10f8c17a-e191-44b4-85cd-60c672ccb921
+    - 0744d2bd-4b75-46ec-a2b1-e7a5dfd0aed6
+    - 2401e56c-d9de-40e5-9c9c-9046d6b734cb
+    - ab722f4a-2cc3-43ae-9b34-383147f1eae1
+    - af71af77-6cb0-433b-bc2c-8ed58fbc360d
+    - da1a3bfb-7bf6-4bdb-87ee-f1a7017fb13c
+

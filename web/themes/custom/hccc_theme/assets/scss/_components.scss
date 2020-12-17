@@ -1,0 +1,32 @@
+// Custom Style
+body {
+	background: $body-bg-app !important;
+	color: $primary-color !important;
+}
+
+.number-circle {
+	width: 60px;
+	height: 60px;
+	border-radius: 50px;
+	font-size: 20px;
+	color: #fff;
+	line-height: 60px;
+	text-align: center;
+	background: #0d6792;
+}
+
+.calltoaction {
+	background: #e1f9f6;
+	text-align: center;
+}
+
+.btn-regions {
+	color: white;
+	background: #0b594f;
+	font-size: 15px;
+	width: 150px;
+
+	&:hover {
+		color: #000000;
+	}
+}

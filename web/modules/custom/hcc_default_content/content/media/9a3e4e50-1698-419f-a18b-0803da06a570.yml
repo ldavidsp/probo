@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 9a3e4e50-1698-419f-a18b-0803da06a570
+  bundle: image
+  default_langcode: en
+  depends:
+    b2bc4afc-7e8c-4a71-9978-145c7107285b: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: gghh_logo.png
+  created:
+    -
+      value: 1608061476
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: b2bc4afc-7e8c-4a71-9978-145c7107285b
+      alt: a
+      title: ''
+      width: 100
+      height: 100

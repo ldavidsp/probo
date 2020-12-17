@@ -1,0 +1,35 @@
+uuid: 3ecc026c-8697-4430-8035-6dd3279e3d69
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.block_hcc
+    - field.field.block_content.block_hcc.body
+    - field.field.block_content.block_hcc.layout_builder__layout
+  module:
+    - text
+id: block_content.block_hcc.default
+targetEntityType: block_content
+bundle: block_hcc
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  layout_builder__layout: true

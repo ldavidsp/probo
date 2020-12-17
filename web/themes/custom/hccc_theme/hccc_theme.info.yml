@@ -1,0 +1,23 @@
+name: HCCC Theme
+type: theme
+description: 'HCCC subtheme bootstrap4'
+core: 8.x
+core_version_requirement: ^8 || ^9
+base theme: bootstrap4
+
+# Libraries.
+libraries:
+  - hccc_theme/global-styling
+  - hccc_theme/global-scripts
+
+# Regions.
+regions:
+  header: Header
+  nav_branding: 'Navigation branding region'
+  nav_main: 'Main navigation region'
+  nav_additional: 'Additional navigation region (eg search form, social icons, etc)'
+  breadcrumb: Breadcrumbs
+  content: 'Main content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: Footer

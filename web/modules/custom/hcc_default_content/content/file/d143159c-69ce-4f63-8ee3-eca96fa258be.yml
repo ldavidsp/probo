@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d143159c-69ce-4f63-8ee3-eca96fa258be
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: hcwh_logo.png
+  uri:
+    -
+      value: 'public://2020-12/hcwh_logo.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 8742
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1608061400

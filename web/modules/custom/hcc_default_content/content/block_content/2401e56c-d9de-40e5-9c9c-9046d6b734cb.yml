@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 2401e56c-d9de-40e5-9c9c-9046d6b734cb
+  bundle: block_hcc
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: '3'
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: "<drupal-media data-align=\"center\" data-entity-type=\"media\" data-entity-uuid=\"a146de33-3a34-4a29-a63c-51561333c660\"></drupal-media>\r\n"
+      format: basic_html
+      summary: ''

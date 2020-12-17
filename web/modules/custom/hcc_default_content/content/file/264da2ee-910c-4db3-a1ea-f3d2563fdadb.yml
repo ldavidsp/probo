@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 264da2ee-910c-4db3-a1ea-f3d2563fdadb
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: pg_logo.png
+  uri:
+    -
+      value: 'public://2020-12/pg_logo.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 5330
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1608061505

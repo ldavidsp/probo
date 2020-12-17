@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: ab722f4a-2cc3-43ae-9b34-383147f1eae1
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: Sector
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: "<div class=\"container p-5\">\r\n<h3>As the only sector with healing as its mission, health care has an opportunity to use its ethical, economic, and political influence to be a leader in climate solutions.</h3>\r\n</div>\r\n"
+      format: full
+      summary: ''

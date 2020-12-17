@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: e2f18497-d723-4d25-9603-a495488f5b96
+  bundle: image
+  default_langcode: en
+  depends:
+    e7510705-9377-4bec-af06-32eefedd658d: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 100RE_banner.png
+  created:
+    -
+      value: 1608060311
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: e7510705-9377-4bec-af06-32eefedd658d
+      alt: b
+      title: ''
+      width: 1200
+      height: 250

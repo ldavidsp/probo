@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 0744d2bd-4b75-46ec-a2b1-e7a5dfd0aed6
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: By
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: "<div class=\"container lead py-4\">By moving toward climate-smart health care, the health sector can mitigate its own climate impact, save money, and lead by example. By becoming more resilient, health care can help prepare their own facilities and their communities for the growing impacts of climate change. And by providing societal leadership, the health sector can help forge a vision of a future with healthy hospitals and healthy people living on a healthy planet.</div>\r\n"
+      format: full
+      summary: ''

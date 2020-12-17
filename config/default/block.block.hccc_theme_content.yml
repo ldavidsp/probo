@@ -1,0 +1,22 @@
+uuid: 819ec18f-457f-4477-af2d-1b6ccb4abd10
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - hccc_theme
+_core:
+  default_config_hash: aJ6ps0sJm9MtQffqINgRms1JaSQgjsg68REaPdN-BGk
+id: hccc_theme_content
+theme: hccc_theme
+region: content
+weight: 1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

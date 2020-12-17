@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: af71af77-6cb0-433b-bc2c-8ed58fbc360d
+  bundle: block_hcc
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: d
+  reusable:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: "<div class=\"container mb-5 mt-5\">\r\n<p>The Health Care Climate Challenge has over 300 participants, <a href=\"https://www.greenhospitals.net/health-care-climate-challenge-participants/\" target=\"_new\">representing the interests of more than 22,000 hospitals and health centers</a> in 34 countries. The challenge is supported by <a href=\"https://www.greenhospitals.net/\">Global Green and Healthy Hospitals</a> and <a href=\"https://practicegreenhealth.org/\">Practice Greenhealth</a>.</p>\r\n\r\n<p>Ready to take it to the next level? <a href=\"mailto:lkoch@hcwh.org\">Email us</a> if you want to join other hospitals in committing to 100% renewable energy. <a href=\"https://noharm-uscanada.org/articles/news/us-canada/health-care-leaders-transitioning-100-renewable-energy\" target=\"new\">Learn more</a>.</p>\r\n</div>\r\n"
+      format: full
+      summary: ''

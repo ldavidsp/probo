@@ -1,0 +1,21 @@
+uuid: c3592cfe-dc9f-425c-aa69-4ec002f1b642
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_description
+    - media.type.document
+  module:
+    - text
+id: media.document.field_description
+field_name: field_description
+entity_type: media
+bundle: document
+label: Description
+description: 'A short description of this file.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

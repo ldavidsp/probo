@@ -1,0 +1,745 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d4d34e22-e34c-492a-ab9c-034629ff9fea
+  bundle: homepage
+  default_langcode: en
+  depends:
+    ab722f4a-2cc3-43ae-9b34-383147f1eae1: block_content
+    0744d2bd-4b75-46ec-a2b1-e7a5dfd0aed6: block_content
+    1bf7f97d-cdc8-4e13-8b16-5de15d02ee85: block_content
+    01fcade2-a301-40e1-acc1-26ea74ae59c6: block_content
+    af71af77-6cb0-433b-bc2c-8ed58fbc360d: block_content
+    da1a3bfb-7bf6-4bdb-87ee-f1a7017fb13c: block_content
+    10f8c17a-e191-44b4-85cd-60c672ccb921: block_content
+    2401e56c-d9de-40e5-9c9c-9046d6b734cb: block_content
+    2c67945f-23e5-4b23-a577-0a8741b6f409: block_content
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Home
+  created:
+    -
+      value: 1607533375
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  layout_builder__layout:
+    -
+      section:
+        layout_id: 'bootstrap_layout_builder:blb_col_1'
+        layout_settings:
+          label: ''
+          container_wrapper_classes: hccc-hero
+          container_wrapper_attributes: null
+          container_wrapper:
+            bootstrap_styles:
+              background:
+                background_type: image
+              background_color:
+                class: null
+              background_media:
+                image:
+                  media_id: '5'
+                video:
+                  media_id: null
+                background_options:
+                  background_position: 'center top'
+                  background_repeat: repeat
+                  background_attachment: not_fixed
+                  background_size: cover
+              text_color:
+                class: null
+              text_alignment:
+                class: null
+              padding:
+                class: bs-p-5
+              padding_left:
+                class: _none
+              padding_top:
+                class: _none
+              padding_right:
+                class: _none
+              padding_bottom:
+                class: _none
+              margin:
+                class: _none
+              margin_left:
+                class: _none
+              margin_top:
+                class: _none
+              margin_right:
+                class: _none
+              margin_bottom:
+                class: _none
+              border:
+                border_style:
+                  class: null
+                border_width:
+                  class: _none
+                border_color:
+                  class: null
+                rounded_corners:
+                  class: _none
+                border_left_style:
+                  class: null
+                border_left_width:
+                  class: _none
+                border_left_color:
+                  class: null
+                border_top_style:
+                  class: null
+                border_top_width:
+                  class: _none
+                border_top_color:
+                  class: null
+                border_right_style:
+                  class: null
+                border_right_width:
+                  class: _none
+                border_right_color:
+                  class: null
+                border_bottom_style:
+                  class: null
+                border_bottom_width:
+                  class: _none
+                border_bottom_color:
+                  class: null
+                rounded_corner_top_left:
+                  class: _none
+                rounded_corner_top_right:
+                  class: _none
+                rounded_corner_bottom_left:
+                  class: _none
+                rounded_corner_bottom_right:
+                  class: _none
+              scroll_effects:
+                class: _none
+          container_wrapper_bg_color_class: ''
+          container_wrapper_bg_media: null
+          container: container-fluid
+          section_classes: py-5
+          section_attributes: null
+          regions_classes:
+            blb_region_col_1: ''
+          regions_attributes:
+            blb_region_col_1: {  }
+          breakpoints: {  }
+          layout_regions_classes: {  }
+          remove_gutters: '1'
+        components: {  }
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: 'bootstrap_layout_builder:blb_col_1'
+        layout_settings:
+          label: ''
+          container_wrapper_classes: ''
+          container_wrapper_attributes: null
+          container_wrapper:
+            bootstrap_styles:
+              background:
+                background_type: color
+              background_color:
+                class: null
+              background_media:
+                image:
+                  media_id: null
+                video:
+                  media_id: null
+                background_options:
+                  background_position: center
+                  background_repeat: no-repeat
+                  background_attachment: not_fixed
+                  background_size: cover
+              text_color:
+                class: _none
+              text_alignment:
+                class: bs-text-left
+              padding:
+                class: _none
+              padding_left:
+                class: _none
+              padding_top:
+                class: _none
+              padding_right:
+                class: _none
+              padding_bottom:
+                class: _none
+              margin:
+                class: _none
+              margin_left:
+                class: _none
+              margin_top:
+                class: _none
+              margin_right:
+                class: _none
+              margin_bottom:
+                class: _none
+              border:
+                border_style:
+                  class: null
+                border_width:
+                  class: _none
+                border_color:
+                  class: null
+                rounded_corners:
+                  class: _none
+                border_left_style:
+                  class: null
+                border_left_width:
+                  class: _none
+                border_left_color:
+                  class: null
+                border_top_style:
+                  class: null
+                border_top_width:
+                  class: _none
+                border_top_color:
+                  class: null
+                border_right_style:
+                  class: null
+                border_right_width:
+                  class: _none
+                border_right_color:
+                  class: null
+                border_bottom_style:
+                  class: null
+                border_bottom_width:
+                  class: _none
+                border_bottom_color:
+                  class: null
+                rounded_corner_top_left:
+                  class: _none
+                rounded_corner_top_right:
+                  class: _none
+                rounded_corner_bottom_left:
+                  class: _none
+                rounded_corner_bottom_right:
+                  class: _none
+              scroll_effects:
+                class: null
+          container_wrapper_bg_color_class: ''
+          container_wrapper_bg_media: null
+          container: container
+          section_classes: ''
+          section_attributes: null
+          regions_classes:
+            blb_region_col_1: ''
+          regions_attributes:
+            blb_region_col_1: {  }
+          breakpoints: {  }
+          layout_regions_classes: {  }
+          remove_gutters: '0'
+        components:
+          3a84d910-47a2-4fad-bd40-12d1e295f0aa:
+            uuid: 3a84d910-47a2-4fad-bd40-12d1e295f0aa
+            region: blb_region_col_1
+            configuration:
+              id: 'inline_block:basic'
+              label: Sector
+              provider: layout_builder
+              label_display: 0
+              view_mode: full
+              block_revision_id: '3'
+              block_serialized: null
+              context_mapping: {  }
+              type: basic
+              uuid: ab722f4a-2cc3-43ae-9b34-383147f1eae1
+            additional:
+              target_uuid: ab722f4a-2cc3-43ae-9b34-383147f1eae1
+            weight: 0
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: 'bootstrap_layout_builder:blb_col_1'
+        layout_settings:
+          label: ''
+          container_wrapper_classes: ''
+          container_wrapper_attributes: null
+          container_wrapper:
+            bootstrap_styles:
+              background:
+                background_type: color
+              background_color:
+                class: null
+              background_media:
+                image:
+                  media_id: null
+                video:
+                  media_id: null
+                background_options:
+                  background_position: center
+                  background_repeat: no-repeat
+                  background_attachment: not_fixed
+                  background_size: cover
+              text_color:
+                class: null
+              text_alignment:
+                class: null
+              padding:
+                class: _none
+              padding_left:
+                class: _none
+              padding_top:
+                class: _none
+              padding_right:
+                class: _none
+              padding_bottom:
+                class: _none
+              margin:
+                class: _none
+              margin_left:
+                class: _none
+              margin_top:
+                class: _none
+              margin_right:
+                class: _none
+              margin_bottom:
+                class: _none
+              border:
+                border_style:
+                  class: null
+                border_width:
+                  class: _none
+                border_color:
+                  class: null
+                rounded_corners:
+                  class: _none
+                border_left_style:
+                  class: null
+                border_left_width:
+                  class: _none
+                border_left_color:
+                  class: null
+                border_top_style:
+                  class: null
+                border_top_width:
+                  class: _none
+                border_top_color:
+                  class: null
+                border_right_style:
+                  class: null
+                border_right_width:
+                  class: _none
+                border_right_color:
+                  class: null
+                border_bottom_style:
+                  class: null
+                border_bottom_width:
+                  class: _none
+                border_bottom_color:
+                  class: null
+                rounded_corner_top_left:
+                  class: _none
+                rounded_corner_top_right:
+                  class: _none
+                rounded_corner_bottom_left:
+                  class: _none
+                rounded_corner_bottom_right:
+                  class: _none
+              scroll_effects:
+                class: null
+          container_wrapper_bg_color_class: ''
+          container_wrapper_bg_media: null
+          container: container
+          section_classes: ''
+          section_attributes: null
+          regions_classes:
+            blb_region_col_1: ''
+          regions_attributes:
+            blb_region_col_1: {  }
+          breakpoints: {  }
+          layout_regions_classes: {  }
+          remove_gutters: '0'
+        components:
+          94241d4d-4a1e-4648-86f8-29c310c1cc41:
+            uuid: 94241d4d-4a1e-4648-86f8-29c310c1cc41
+            region: blb_region_col_1
+            configuration:
+              id: 'inline_block:basic'
+              label: By
+              provider: layout_builder
+              label_display: 0
+              view_mode: full
+              block_revision_id: '9'
+              block_serialized: null
+              context_mapping: {  }
+              type: basic
+              uuid: 0744d2bd-4b75-46ec-a2b1-e7a5dfd0aed6
+            additional:
+              target_uuid: 0744d2bd-4b75-46ec-a2b1-e7a5dfd0aed6
+            weight: 0
+          eb0cd708-76e4-4742-9011-a382df495e7a:
+            uuid: eb0cd708-76e4-4742-9011-a382df495e7a
+            region: blb_region_col_1
+            configuration:
+              id: 'inline_block:block_hcc'
+              label: as
+              provider: layout_builder
+              label_display: 0
+              view_mode: full
+              block_revision_id: '6'
+              block_serialized: null
+              context_mapping: {  }
+              type: block_hcc
+              uuid: 1bf7f97d-cdc8-4e13-8b16-5de15d02ee85
+            additional:
+              target_uuid: 1bf7f97d-cdc8-4e13-8b16-5de15d02ee85
+            weight: 1
+          29dfb69d-dfe0-498d-9698-724679c8a42c:
+            uuid: 29dfb69d-dfe0-498d-9698-724679c8a42c
+            region: blb_region_col_1
+            configuration:
+              id: 'inline_block:block_hcc'
+              label: Join
+              provider: layout_builder
+              label_display: 0
+              view_mode: full
+              block_revision_id: '1'
+              block_serialized: null
+              context_mapping: {  }
+              type: block_hcc
+              uuid: 01fcade2-a301-40e1-acc1-26ea74ae59c6
+            additional:
+              target_uuid: 01fcade2-a301-40e1-acc1-26ea74ae59c6
+            weight: 2
+          fc40d6c0-67fa-477c-8624-63c322680f12:
+            uuid: fc40d6c0-67fa-477c-8624-63c322680f12
+            region: blb_region_col_1
+            configuration:
+              id: 'inline_block:block_hcc'
+              label: d
+              provider: layout_builder
+              label_display: 0
+              view_mode: full
+              block_revision_id: '2'
+              block_serialized: null
+              context_mapping: {  }
+              type: block_hcc
+              uuid: af71af77-6cb0-433b-bc2c-8ed58fbc360d
+            additional:
+              target_uuid: af71af77-6cb0-433b-bc2c-8ed58fbc360d
+            weight: 3
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: 'bootstrap_layout_builder:blb_col_1'
+        layout_settings:
+          label: ''
+          container_wrapper_classes: ''
+          container_wrapper_attributes: null
+          container_wrapper:
+            bootstrap_styles:
+              background:
+                background_type: image
+              background_color:
+                class: null
+              background_media:
+                image:
+                  media_id: '2'
+                video:
+                  media_id: null
+                background_options:
+                  background_position: center
+                  background_repeat: no-repeat
+                  background_attachment: not_fixed
+                  background_size: cover
+              text_color:
+                class: null
+              text_alignment:
+                class: null
+              padding:
+                class: bs-p-5
+              padding_left:
+                class: _none
+              padding_top:
+                class: _none
+              padding_right:
+                class: _none
+              padding_bottom:
+                class: _none
+              margin:
+                class: _none
+              margin_left:
+                class: _none
+              margin_top:
+                class: _none
+              margin_right:
+                class: _none
+              margin_bottom:
+                class: _none
+              border:
+                border_style:
+                  class: null
+                border_width:
+                  class: _none
+                border_color:
+                  class: null
+                rounded_corners:
+                  class: _none
+                border_left_style:
+                  class: null
+                border_left_width:
+                  class: _none
+                border_left_color:
+                  class: null
+                border_top_style:
+                  class: null
+                border_top_width:
+                  class: _none
+                border_top_color:
+                  class: null
+                border_right_style:
+                  class: null
+                border_right_width:
+                  class: _none
+                border_right_color:
+                  class: null
+                border_bottom_style:
+                  class: null
+                border_bottom_width:
+                  class: _none
+                border_bottom_color:
+                  class: null
+                rounded_corner_top_left:
+                  class: _none
+                rounded_corner_top_right:
+                  class: _none
+                rounded_corner_bottom_left:
+                  class: _none
+                rounded_corner_bottom_right:
+                  class: _none
+              scroll_effects:
+                class: null
+          container_wrapper_bg_color_class: ''
+          container_wrapper_bg_media: null
+          container: container
+          section_classes: ''
+          section_attributes: null
+          regions_classes:
+            blb_region_col_1: ''
+          regions_attributes:
+            blb_region_col_1: {  }
+          breakpoints: {  }
+          layout_regions_classes: {  }
+          remove_gutters: '0'
+        components: {  }
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: 'bootstrap_layout_builder:blb_col_4'
+        layout_settings:
+          label: ''
+          container_wrapper_classes: 'mt-5 pt-4 mb-5 border-top'
+          container_wrapper_attributes: null
+          container_wrapper:
+            bootstrap_styles:
+              background:
+                background_type: color
+              background_color:
+                class: null
+              background_media:
+                image:
+                  media_id: null
+                video:
+                  media_id: null
+                background_options:
+                  background_position: center
+                  background_repeat: no-repeat
+                  background_attachment: not_fixed
+                  background_size: cover
+              text_color:
+                class: null
+              text_alignment:
+                class: null
+              padding:
+                class: _none
+              padding_left:
+                class: _none
+              padding_top:
+                class: _none
+              padding_right:
+                class: _none
+              padding_bottom:
+                class: _none
+              margin:
+                class: _none
+              margin_left:
+                class: _none
+              margin_top:
+                class: _none
+              margin_right:
+                class: _none
+              margin_bottom:
+                class: _none
+              border:
+                border_style:
+                  class: null
+                border_width:
+                  class: _none
+                border_color:
+                  class: null
+                rounded_corners:
+                  class: _none
+                border_left_style:
+                  class: null
+                border_left_width:
+                  class: _none
+                border_left_color:
+                  class: null
+                border_top_style:
+                  class: null
+                border_top_width:
+                  class: _none
+                border_top_color:
+                  class: null
+                border_right_style:
+                  class: null
+                border_right_width:
+                  class: _none
+                border_right_color:
+                  class: null
+                border_bottom_style:
+                  class: null
+                border_bottom_width:
+                  class: _none
+                border_bottom_color:
+                  class: null
+                rounded_corner_top_left:
+                  class: _none
+                rounded_corner_top_right:
+                  class: _none
+                rounded_corner_bottom_left:
+                  class: _none
+                rounded_corner_bottom_right:
+                  class: _none
+              scroll_effects:
+                class: null
+          container_wrapper_bg_color_class: ''
+          container_wrapper_bg_media: null
+          container: container-fluid
+          section_classes: justify-content-center
+          section_attributes: null
+          regions_classes:
+            blb_region_col_1: 'col-md-auto my-auto d-flex justify-content-end'
+            blb_region_col_2: 'col-md-2 d-flex justify-content-center'
+            blb_region_col_3: 'col-md-2 d-flex justify-content-center'
+            blb_region_col_4: 'col-md-2 d-flex justify-content-start'
+          regions_attributes:
+            blb_region_col_1: null
+            blb_region_col_2: null
+            blb_region_col_3: null
+            blb_region_col_4: null
+          breakpoints:
+            desktop: blb_col_4_2_2_4
+            tablet: blb_col_4_2_2_4
+            mobile: blb_col_12
+          layout_regions_classes:
+            blb_region_col_1:
+              - col-lg-4
+              - col-md-4
+              - col-12
+            blb_region_col_2:
+              - col-lg-2
+              - col-md-2
+              - col-12
+            blb_region_col_3:
+              - col-lg-2
+              - col-md-2
+              - col-12
+            blb_region_col_4:
+              - col-lg-4
+              - col-md-4
+              - col-12
+          remove_gutters: '1'
+        components:
+          d4582a15-b920-4364-bdb7-831a67ff4701:
+            uuid: d4582a15-b920-4364-bdb7-831a67ff4701
+            region: blb_region_col_2
+            configuration:
+              id: 'inline_block:block_hcc'
+              label: '1'
+              provider: layout_builder
+              label_display: 0
+              view_mode: full
+              block_revision_id: '4'
+              block_serialized: null
+              context_mapping: {  }
+              type: block_hcc
+              uuid: da1a3bfb-7bf6-4bdb-87ee-f1a7017fb13c
+            additional:
+              target_uuid: da1a3bfb-7bf6-4bdb-87ee-f1a7017fb13c
+            weight: 0
+          a3cba9d5-3512-41fe-ab20-13b1cf8f6cbc:
+            uuid: a3cba9d5-3512-41fe-ab20-13b1cf8f6cbc
+            region: blb_region_col_3
+            configuration:
+              id: 'inline_block:block_hcc'
+              label: '2'
+              provider: layout_builder
+              label_display: 0
+              view_mode: full
+              block_revision_id: '5'
+              block_serialized: null
+              context_mapping: {  }
+              type: block_hcc
+              uuid: 10f8c17a-e191-44b4-85cd-60c672ccb921
+            additional:
+              target_uuid: 10f8c17a-e191-44b4-85cd-60c672ccb921
+            weight: 0
+          6ca946da-bdd1-4c61-af62-6eefd7ea86f7:
+            uuid: 6ca946da-bdd1-4c61-af62-6eefd7ea86f7
+            region: blb_region_col_4
+            configuration:
+              id: 'inline_block:block_hcc'
+              label: '3'
+              provider: layout_builder
+              label_display: 0
+              view_mode: full
+              block_revision_id: '7'
+              block_serialized: null
+              context_mapping: {  }
+              type: block_hcc
+              uuid: 2401e56c-d9de-40e5-9c9c-9046d6b734cb
+            additional:
+              target_uuid: 2401e56c-d9de-40e5-9c9c-9046d6b734cb
+            weight: 0
+          87f8c85e-afd8-4a04-86d7-c207df9c829c:
+            uuid: 87f8c85e-afd8-4a04-86d7-c207df9c829c
+            region: blb_region_col_1
+            configuration:
+              id: 'inline_block:block_hcc'
+              label: a
+              provider: layout_builder
+              label_display: 0
+              view_mode: full
+              block_revision_id: '8'
+              block_serialized: null
+              context_mapping: {  }
+              type: block_hcc
+              uuid: 2c67945f-23e5-4b23-a577-0a8741b6f409
+            additional:
+              target_uuid: 2c67945f-23e5-4b23-a577-0a8741b6f409
+            weight: 0
+        third_party_settings: {  }

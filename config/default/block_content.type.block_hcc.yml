@@ -1,0 +1,8 @@
+uuid: 86624735-0cd5-4923-b556-014af9cabb10
+langcode: en
+status: true
+dependencies: {  }
+id: block_hcc
+label: 'Block HCC'
+revision: 0
+description: ''
